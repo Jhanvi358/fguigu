@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: Grotta;
+    src: url('Grotta-Medium.otf');
+}
+html, body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.left{
+    display: flex;
+    width: 40px;
+    justify-content: left;
+    align-items: left;
+    gap:2px;
+    font-size: 20px;
+}
+.one{
+    width: 96%;
+    height: 80vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fun{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url('IMG-20240726-WA0019.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Grotta';
+    box-sizing: border-box;
+    padding: 20px;
+}
+.nun{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url('IMG-20240726-WA0009.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Grotta';
+    color: white;
+}
+.tt{
+    font-weight: bold;
+    color: transparent;
+    font-family: 'Grotta ';
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.right{
+
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding:30px;
+    transition: background-color 0.2s;
+    border-radius: 2px;
+}
+a:hover{
+    background-color: black;
+    color: #E6E6E6;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    font-size: 20px;
+    text-align: left;
+}
+.fry{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 95%;
+     height: 50vh;
+
+}
+.left1{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    text-align: left;
+    font-size: 80px;
+    gap: 300px;
+}
+.right1{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20vh;
+}
+
+.vd{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+video{
+    width: auto;
+    height: 90%;
+    border-radius: 30px;
+    background:rgb(241, 236, 236);
+}
+h2{
+    font-size: 100px;
+    font-family: "Grotta-Medium.otf";
+    text-align: center;
+    margin-top: 30px;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Grotta-Medium.otf" ;
+    font-size: 30px;
+    text-align: left;
+    gap: 20px;
+    
+}
+.home{
+    background-color:skyblue ;
+    height: 120px;
+    width: 300px;
+    text-align: left;
+    border-radius: 10%;
+    display:start ;
+    padding: 20px 20px ;
+
+
+}
+.office{
+    background-color:rgb(243, 243, 104) ;
+    height: 120px;
+    width: 300px;
+    text-align: left;
+    border-radius: 10%;
+    display:start ;
+    padding: 20px 20px;
+}
+.apartment{
+    background-color:rgb(248, 129, 86);
+    height: 120px;
+    width: 300px;
+    text-align: left;
+    border-radius: 10%;
+    display:start ;
+    padding: 20px 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: none;
+    padding: 30px;
+    border: none;
+}
+.chair{
+    display: inline block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-right: 80%;
+    background-image: url(ccha.jpeg);
+}
+.new{
+    display: inline block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-left: 70%;
+    background-image: url(new.jpeg);
+}
+h1{
+    font-size: 100px;
+    font-family: "Grotta-Medium.otf";
+    text-align: left;
+    margin-top: 30px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1400px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;  
+}
+.training img{
+ width: 100%;
+ height: 500px;
+ display: flex;
+ justify-content: space-between;
+ border-radius: 20px;
+}
+.training h4{
+color: black;
+text-align: center;
+display: flex;
+justify-content: center;
+width: 200px;
+border-radius: 50px;
+}
+.training h5{
+font-family: "Grotta";
+}
+.our{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1400px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;  
+}
+.blog img{
+ width: 100%;
+ height: 500px;
+ display: flex;
+ justify-content: space-between;
+ border-radius: 20px;
+}
+.blog h5{
+color: black;
+text-align: center;
+display: flex;
+justify-content: center;
+width: 200px;
+border-radius: 50px;
+}
+.blog h6{
+font-family: "Grotta";
+color: grey;
+}
+.fot{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400%;
+    width: 100%;
+}
+.tot h3{
+    color: white;
+    align-items: last baseline;
+    display: flex;
+    justify-content: center;
+}
+h5{
+    color: grey;
+}
+.fatt{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400%;
+    width: 100%;
+}
+.hhy{
+    color: grey;
+}
+
